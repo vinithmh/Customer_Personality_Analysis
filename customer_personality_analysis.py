@@ -123,7 +123,7 @@ def main():
         Education_Others = st.text_input('Others')
 
     with col2:
-    Education_PhD = st.text_input('Phd or not')
+        Education_PhD = st.text_input('Phd or not')
 
 
 
