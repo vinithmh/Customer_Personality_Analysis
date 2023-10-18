@@ -36,35 +36,93 @@ def main():
     st.title('Cluster Prediction Web App')
 
     # getting the input data from the user
+    col1, col2, col3 = st.columns(3)
 
-    Marital_Status = st.text_input('Marital Status')
-    Income = st.text_input('Income')
-    Kidhome = st.text_input('Number of kids in home')
-    Teenhome = st.text_input('Number of teenagers in home')
-    Recency = st.text_input('Recency')
-    MntWines = st.text_input('Amount of wines')
-    MntFruits = st.text_input('Amount of fruits')
-    MntMeatProducts = st.text_input('Amount of meat products')
-    MntFishProducts = st.text_input('Amount of fish products')
-    MntSweetProducts = st.text_input('Amount of sweet products')
-    MntGoldProds = st.text_input('Amount of gold products')
-    NumDealsPurchases = st.text_input('Number of deals purchases')
-    NumWebPurchases = st.text_input('Number of web purchases')
-    NumCatalogPurchases = st.text_input('Number of catalog purchases')
-    NumStorePurchases = st.text_input('Number of store purchases')
-    NumWebVisitsMonth = st.text_input('Number of Vists per month')
-    AcceptedCmp5 = st.text_input('Accepted in camp 5')
-    AcceptedCmp4 = st.text_input('Accepted in camp 4')
-    AcceptedCmp3 = st.text_input('Accepted in camp 3')
-    AcceptedCmp2 = st.text_input('Accepted in camp 2')
-    AcceptedCmp1 = st.text_input('Accepted in camp 1')
-    Complain = st.text_input('Complain')
-    Response = st.text_input('Response')
-    age = st.text_input('Age')
-    years_of_enrollment = st.text_input('Years of enrollment')
-    Education_Graduation = st.text_input('Graduate or not')
-    Education_Master = st.text_input('Masters or not')
-    Education_Others = st.text_input('Others')
+    with col1:
+        Marital_Status = st.text_input('Marital Status')
+
+    with col2:
+        Income = st.text_input('Income')
+
+    with col3:
+        Kidhome = st.text_input('Number of kids in home')
+
+    with col1:
+        Teenhome = st.text_input('Number of teenagers in home')
+
+    with col2:
+        Recency = st.text_input('Recency')
+
+    with col3:
+        MntWines = st.text_input('Amount of wines')
+
+    with col1:
+        MntFruits = st.text_input('Amount of fruits')
+
+    with col2:
+        MntMeatProducts = st.text_input('Amount of meat products')
+
+    with col3:
+        MntFishProducts = st.text_input('Amount of fish products')
+
+    with col1:
+        MntSweetProducts = st.text_input('Amount of sweet products')
+
+    with col2:
+        MntGoldProds = st.text_input('Amount of gold products')
+
+    with col3:
+        NumDealsPurchases = st.text_input('Number of deals purchases')
+
+    with col1:
+        NumWebPurchases = st.text_input('Number of web purchases')
+
+    with col2:
+        NumCatalogPurchases = st.text_input('Number of catalog purchases')
+
+    with col3:
+        NumStorePurchases = st.text_input('Number of store purchases')
+
+    with col1:
+        NumWebVisitsMonth = st.text_input('Number of Vists per month')
+
+    with col2:
+        AcceptedCmp5 = st.text_input('Accepted in camp 5')
+
+    with col3:
+        AcceptedCmp4 = st.text_input('Accepted in camp 4')
+
+    with col1:
+        AcceptedCmp3 = st.text_input('Accepted in camp 3')
+
+    with col2:
+        AcceptedCmp2 = st.text_input('Accepted in camp 2')
+
+    with col3:
+        AcceptedCmp1 = st.text_input('Accepted in camp 1')
+
+    with col1:
+        Complain = st.text_input('Complain')
+
+    with col2:
+        Response = st.text_input('Response')
+
+    with col3:
+        age = st.text_input('Age')
+
+    with col1:
+        years_of_enrollment = st.text_input('Years of enrollment')
+
+    with col2:
+        Education_Graduation = st.text_input('Graduate or not')
+
+    with col3:
+        Education_Master = st.text_input('Masters or not')
+
+    with col1:
+        Education_Others = st.text_input('Others')
+
+    with col2:
     Education_PhD = st.text_input('Phd or not')
 
 
