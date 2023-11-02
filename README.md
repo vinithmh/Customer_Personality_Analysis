@@ -48,6 +48,19 @@ src/: Contains the Python source code files used in the project.
 README.md: The file you are currently reading.
 requirements.txt: Lists the project's dependencies.
 
+## Installation
+
+Getting started with the Job Matching System is straightforward. Follow these installation steps:
+
+1. Clone the repository:
+ git clone https://github.com/yourusername/your-repo-name.git
+
+2. Navigate to the project directory:
+   cd your-repo-name
+
+3. Install the required Python packages:
+   pip install -r requirements.txt 
+
 ## Usage
 
 You can use the code and models provided in this repository to perform customer personality analysis. The Jupyter notebooks guide you through the data analysis and model building processes.
